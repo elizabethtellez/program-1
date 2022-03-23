@@ -1,0 +1,162 @@
+body {
+  background-color: white;
+}
+
+h1,
+p,
+div,
+footer {
+  margin: 0 2vw;
+  font-family: "Poppins", sans-serif;
+}
+
+div.nav_logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+div.content_header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+
+nav {
+  background-color: #22223b;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a:hover {
+  background-color: #c2c5aa;
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+div.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+h2.main_header {
+  text-align: center;
+}
+div.content_box {
+  height: 200px;
+  padding: 20px;
+  border: 1px solid rgba(13, 38, 122, 0.9);
+  background-color: rgba(13, 38, 122, 0.178);
+  margin-bottom: 10px;
+}
+div.spotlight_box {
+  height: 400px;
+}
+.spotlight {
+  border: 1px solid rgba(13, 38, 122, 0.5);
+  margin: 0;
+  height: 50%;
+}
+.extra {
+  display: none;
+}
+.foot_img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+}
+#footer_content_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: #22223b;
+  color: white;
+}
+.foot_bot {
+  border-top: black 1px solid;
+  display: block;
+}
+
+/*----------Week 10----------------*/
+
+#forecast {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+#forecast img {
+  display: flex;
+  justify-self: center;
+}
+#forecast p,
+#forecast h3,
+#forecast h4 {
+  text-align: center;
+}
+#forecast :nth-child(1) {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+#forecast :nth-child(2) {
+  grid-row: 2/3;
+}
+#forecast :nth-child(3) {
+  grid-row: 3/4;
+}
+#forecast :nth-child(4) {
+  grid-row: 1/2;
+}
+#forecast :nth-child(5) {
+  grid-row: 2/3;
+}
+#forecast :nth-child(6) {
+  grid-row: 3/4;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join</title>
+    <link rel="stylesheet" href="../Week_5B/css/normalize.css">
+    <link rel="stylesheet" href="../Week_5B/css/larger.css">
+    <link rel="stylesheet" href="../Week_5B/css/medium.css">
+    <link rel="stylesheet" href="../Week_5B/css/small.css">
+    <link rel="stylesheet" href="../Week_8B/style.css">
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap');
+  </style>
+  <body>
+    <div class="content">
+        <header>
+            <div class="nav_logo">
+                <img src="../Week_5B/img/logo.png" alt="logo" class="logo">
+                <div class="content_header">
+                    <h1 id="myHeader">Chamber of Commerce</h2>
+                    <p>Shaver Lake Chamber of Commerce</p>
+                </div>
+            </div>
+          
+            <nav class="navbar">
+                <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+                <ul id="primaryNav">
+                  <li class="navbar_list"><a href="../index.html">Home</a></li>
+                  <li class="navbar_list active"><a href="../Week_5B/index.html">Chamber of commerce</a></li>
+                  <li class="navbar_list"><a href="../Week_8B/join.html">Membership Application Form</a></li>
+                  <li class="navbar_list"><a href="../Week_9B/directory.html">Directory</a></li>
+                  <li class="navbar_list"><a href="../Week_7B/discover.html">Gallery</a></li>
+                  <li class="navbar_list"><a href="../Week_11/contact.html">Contact</a></li>
+                </ul>
+            </nav>         
+        </header>
+        <h1 id="contactHeader">Contact the Chamber</h1>
+        <p> Send us your questions or comments using the form below. We will respond promptly to your inquiry.
+        
+        <main> 
+
+          <form action="thankyou.html" method="get">
+            <div class="firstName typeText">
+              <label for="firstName">Name: </label>
+              <input name="firstName" required type="text" placeholder="Joe Smith">
+            </div>
+
+            <div class="lastName typeText">
+              <label for="organizationName">Organization: </label>
+              <input name="organizationName" required type="text" placeholder="Company, Inc">
+            </div>
+
+            <div class="mailingAdress typeText">
+              <label for="MailingAddress">Mailing Address: </label>
+              <input name="MailingAddress" type="text" placeholder="123 Example Street">
+            </div>
+
+            <div class="mailingAdress2 typeText">
+               <label for="MailingAddress2">Mailing Address 2: </label>
+               <input name="MailingAddress2" type="text" placeholder="Suite 900">
+            </div>
+
+            <div class="yourCity typeText">
+               <label for="YourCity"> City: </label>
+               <input name="YourCity" type="text" placeholder="Fresno">
+            </div>
+
+            <div class="yourState typeText">
+               <label for="YourState"> State: </label>
+               <input name="YourState" type="text" placeholder="CA">
+            </div>
+
+            <div class="yourPCode typeText">
+                <label for="YourPCode"> Postal Code: </label>
+                <input name="YourPCode" type="number" placeholder="54321">
+             </div>
+
+
+            <div class="email typeText">
+              <label for="email">Email:</label>
+              <input class="email" required type="email" placeholder="youremail@domain.com">
+            </div>
+
+            <div class="cellphoneNumber typeText">
+              <label for="cellphone">Cellphone Number(required):</label>
+              <input type="tel" required name="cellphone" class="cellphone" id="cellphone" placeholder="(000) 000-0000">
+            </div>
+
+            <div class="textArea">
+              <label for="desription">Comments/Questions</label>
+              <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="submit">
+              <label for="submit">Click to Submit</label>
+              <input type="submit" name="submit" value="SUBMIT">
+            </div>
+          </form>
+        </main>
+        <div class="visit-points">
+            <div class="visitUs"><b>Visit us</b><br>
+                <p>Redding Chamber of Commerce<br>
+                    1321 Butte Street, #100<br>
+                    Redding, CA 96001<br>
+                    <br>
+                    Monday – Thursday: 9:00 a.m. to 4:30 p.m.<br>
+                    Friday: By Appointment Only</p>
+            </div>
+            <div class="pointsContact"><b>Points of Contact</b><br>
+                <p>Jake Mangas<br>
+                    President & CEO<br>
+                    (530) 225-4433, ext. 104<br>
+                    <br>
+                    Erin Hull<br>
+                    Director of Marketing & Membership<br>
+                    530.225.4433, ext. 102<br>
+                    <br>
+                    Haley Soule Kennedy<br>
+                    Operations Assistant<br>
+                    (530) 225-4433, ext. 101</p>
+            </div>
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../Week_8B/script.js"></script>
+  </body>
+</html>

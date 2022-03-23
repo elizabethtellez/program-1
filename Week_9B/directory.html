@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory</title>
+    <link rel="stylesheet" href="../Week_5B/css/normalize.css">
+    <link rel="stylesheet" href="../Week_5B/css/larger.css">
+    <link rel="stylesheet" href="../Week_5B/css/medium.css">
+    <link rel="stylesheet" href="../Week_5B/css/small.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./directory.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap');
+</style>
+<body>
+    <header>
+        <div class="nav_logo">
+            <img src="../Week_5B/img/logo.png" alt="logo" class="logo">
+            <div class="content_header">
+                <h1 id="myHeader"> Chamber of Commerce</h1>
+                <p>Shaver Lake Chamber of Commerce</p>
+            </div>
+        </div>
+        <nav class="navbar">
+            <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="navbar_list"><a href="../index.html">Home</a></li>
+                <li class="navbar_list active"><a href="../Week_5B/index.html">Chamber of commerce</a></li>
+                <li class="navbar_list"><a href="../Week_8B/join.html">Membership Application Form</a></li>
+                <li class="navbar_list"><a href="../Week_9B/directory.html">Directory</a></li>
+                <li class="navbar_list"><a href="../Week_7B/discover.html">Gallery</a></li>
+                <li class="navbar_list"><a href="../Week_11/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="header">
+            <h2>
+                Business Directory
+            </h2>
+            <div class="btn-group">
+                <button onclick="displayListRemove()" type="button" class="btn btn-outline-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+                    <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"></path>
+                </svg>
+                  <span class="visually-hidden">Button</span>
+                </button>
+                <button onclick="displayListAdd()"  type="button" class="btn btn-outline-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
+                    </svg>
+                  <span class="visually-hidden">Button</span>
+                </button>
+            </div>
+        </div>
+        <div class="containerSection">
+
+        </div>
+    </main>
+    <script src="./directory.js"></script>
+    <script src="./bootstrap.min.js"></script>
+</body>
+</html>

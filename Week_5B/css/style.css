@@ -1,0 +1,39 @@
+#recreation {
+  display: block;
+  background-color: #f2e9e4;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#join {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  margin: 0em;
+  justify-content: center;
+}
+button {
+  background-color: orange;
+}
+#information {
+  display: block;
+}
+
+.spotlight {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-align: center;
+}
+p {
+  margin: 0;
+  text-align: center;
+}
+b {
+  text-align: center;
+}
